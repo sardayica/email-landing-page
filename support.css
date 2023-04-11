@@ -1,0 +1,40 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    font-size: 16px;
+    /*never assume someos browser will have a white background and black texts, add what you want it to be in css */
+}
+
+.sidebyside {
+    float: left;
+    margin: 10px;
+    width: 150px;
+    /*adding the width makes sure text below image remains contained within its peramiters (remember 150px is the size of the tumbnail */
+    border-left: 1px solid black;
+}
+
+.sidebyside > div {
+    /* by doing the > div within a class we already have, we refrence the child div inside the parent div. So you dont need to go back to html to add a new class type insdie the child div */
+    padding: 5px;
+}
+
+.text {
+    text-align: center;
+}
+
+.current {
+    color: white;
+    background-color: red;
+}
+
+.border {
+    background-color: white;
+    margin: auto;
+    margin-top: 0px;
+    width: 700px;
+    padding-left:5px;
+    padding-top: 5px;
+    border: solid 10px yellow;
+    outline: solid 10px red;
+}
