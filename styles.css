@@ -1,0 +1,43 @@
+* {
+    outline: solid whitesmoke;
+}
+
+body{
+    background-color: burlywood;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin: auto;
+}
+
+.rgb {background-color: rgba(217, 134, 75, 0.87); 
+    font-size:2 em;
+    /*filter:drop-shadow(5px 5px 5px black);*/
+    /*height:500px;*/
+    /*width:fit-content*/
+}
+
+li{
+    list-style-type: square;
+}
+
+li.special {
+    color: orangered;
+    font-weight: bold;
+  }
+
+  li em {
+    color: rebeccapurple;
+  }
+
+  a:link {
+    color: black;
+  }
+
+  a:hover {
+    font-size:300%;
+  }
+/*THIS IS HOW U COMMENT OUT, yaaay */
+/*selectors, diff types...u can combine ID and Class, would have properties of both*/
+
+
+
